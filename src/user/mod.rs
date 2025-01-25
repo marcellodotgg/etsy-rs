@@ -15,4 +15,3 @@ pub async fn get(client: &EtsyClient, user_id: i32) -> Result<(), Error> {
     println!("{}", body);
     Ok(())
 }
-
